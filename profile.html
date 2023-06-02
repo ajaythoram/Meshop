@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link href=’https://fonts.googleapis.com/css?family=Sofia’ rel=’stylesheet’/>
+</head>
+<body>
+    <nav>
+        <div class="brand">
+          <a href="#">MeShop.</a>
+        </div>
+        <div class="nav-items">
+          <a href="/Home/home.html">Home</a>
+        <a href="/Login/login.html">Login</a>
+        <a href="/Signup/signup.html">Signup</a>
+        <a href="/profile/profile.html">profile</a>
+        <a href="/Cart/cart.html">My Cart</a>
+        </div>
+      </nav>
+     <main>
+        <form>
+            <h1>My Profile</h1>
+            <input id="fname" type="text" placeholder="First Name">
+            <input id="lname" type="text" placeholder="Last Name">
+            <button id="btn_save">Save info</button>
+          </form>
+         <form>
+           <h1>Edit Password</h1>
+           <input id="old_password" type="password" placeholder="Old Password">
+           <input id="new_password" type="password" placeholder="New Password">
+           <input id="re_password" type="password" placeholder="Confirm New Password">
+           <button id="btn_pass"> Change Password</button>
+           <button id="btn_logout">Log Out</button>
+         </form>
+     </main>
+     
+      
+    <script src="profile.js"></script>
+</body>
+
+</html>
